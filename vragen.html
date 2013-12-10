@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <!-- This code is only meant for previewing your Reflow design. -->
+    <head>
+        <title>Eye-Fiets-Eye ken de regels</title>
+        <meta charset="ISO-8859-1">
+	 <link rel="stylesheet" href="boilerplate.css" />
+        <link rel="stylesheet" href="vragen.css" />
+        <link rel="stylesheet" href="home.css" />
+        <link rel="stylesheet" href="accordion.css" />
+	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+    
+	<script src="jquery.min.js"></script>
+	<script src="flowtype.js"></script><script type="text/javascript" src="jqui.js"></script>
+      <script type="text/javascript" src="iscroll.js"></script> 
+        <script type="text/javascript" src="jquery.min.js"></script> 
+        <script type="text/javascript" src="fietsappscript.js"></script> 
+         
+         <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+         <script type="text/javascript">
+
+
+           var myScroll;
+           var myScroll2;
+           function loaded() {
+               myScroll = new iScroll('wrapper');
+              
+           }
+  
+           document.addEventListener('touchmove', function(e) {
+               e.preventDefault();
+           }, false);
+
+           document.addEventListener('DOMContentLoaded', function() {
+               setTimeout(loaded, 200);
+           }, false);
+
+
+         </script>
+    </head>
+    <body>
+    
+    <pagina value="vragen"></pagina>
+	<div id="primaryContainer" class="primaryContainer clearfix">
+            <div id='screen' class='clearfix'>
+                <div id='Header' class='clearfix'>
+                    <div id='Terug' class='clearfix'>
+                        <img id='homekop' src='img/terug 1.png' class='image' />
+                    </div>
+                    <div id='vraagtop' class='clearfix'>
+                        <p id='vraagtop-text'>
+                            Vraag 1 / 15
+                        </p>
+                    </div>
+                    <div id='leveltop' class='clearfix'>
+                        <p id='leveltop-text'>
+                            Niveau 1
+                        </p>
+                    </div>
+                </div>
+
+                <div id='Foto-div' class='clearfix'>
+                    <img id='foto' src='img/pic.jpg' class='image' />
+                </div>
+                <div id='progress' class='clearfix' >
+                    <progress id='progressbar' width="100%" value="0" max="12"></progress> 
+                </div>
+                <div id='vraag' class='clearfix'>
+                    <p id='vraag-text'>
+                        Deze twee fietsers fietsen naast elkaar in een éénrichtingsstraat binnen de bebouwde kom. Mogen zij naast elkaar blijven fietsen, ook al kan de auto hen niet inhalen?<br />
+                    </p>
+                </div>
+                <div id='antwoorden' class='clearfix'>
+                    <div id='a' class='clearfix'>
+                        <p id='a-text'>
+                            A: Ja, behalve wanneer het kruisen met een tegenligger onmogelijk is of wanneer er achteropkomend verkeer is. anneer het kruisen met een tegenligger onmogelijk is of wanneer er ach
+                        </p>
+                    </div>
+                    <div id='b' class='clearfix'>
+                        <p id='b-text'>
+                            B: Ja, behalve wanneer het kruisen met een tegenligger onmogelijk is.
+                        </p>
+                    </div>
+                    <div id='c' class='clearfix'>
+                        <p id='c-text'>
+                            A: waarom
+                        </p>
+                    </div>
+                </div>
+               
+            </div>
+               
+
+	</div>
+	<script>
+$(function(){
+    $('body').flowtype();
+});
+</script>
+    </body>
+</html>

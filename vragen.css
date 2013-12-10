@@ -1,0 +1,562 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   min-height: 100%;
+   width: 100%;
+   background-image:-webkit-linear-gradient(270deg,rgb(29,29,29) 4%,black 100%);
+   background-position: 0% 0%;
+   background-repeat: repeat;
+   background-attachment: scroll;
+   background-size: auto;
+}
+progress {
+  color: #0063a6;
+  font-size: .6em;
+  line-height: 1.5em;
+  text-indent: .5em;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #0063a6;
+  background: #fff;
+}
+#error{
+    overflow: auto;
+   
+     width: 100%;
+    height: 80%;
+    background-color: #d7d1d1;
+    
+  text-align: center;
+    -moz-box-shadow: 4px 0px 30px 6px #888888;
+    -webkit-box-shadow: 4px 0px 30px 6px #888888;
+    box-shadow: 4px 0px 30px 6px #888888;
+    
+    -webkit-border-top-left-radius: 10px;
+-moz-border-radius-topleft: 10px;
+border-top-left-radius: 10px;
+
+-webkit-border-top-right-radius: 10px;
+-moz-border-radius-topright: 10px;
+border-top-right-radius: 10px;
+
+/*font-family: Andika;
+color: #FFFFFF;
+font-size: 16px;
+background-color: #4669DB;
+padding: 20px;*/
+
+}
+#errorContainer{
+     position:fixed;
+    top:8%;
+    left:0%;
+    width: 100%;
+    height: 100%;
+ -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+filter: alpha(opacity=90);
+-moz-opacity: 0.9;
+-khtml-opacity: 0.9;
+opacity: 0.9;
+/*border: 1px #888888 solid;*/
+
+background-color: #d7d1d1;
+
+-moz-border-radius: 010px 10px 10px 10px ;
+	-webkit-border-radius: 10px 10px 10px 10px ;
+	border-radius: 10px 10px 10px 10px ;;
+
+/*-moz-box-shadow: 4px 0px 30px 6px #022cf7;
+-webkit-box-shadow: 4px 0px 30px 6px #022cf7;
+box-shadow: 4px 0px 30px 6px #022cf7;*/
+
+    
+}
+#css3button {
+     width: 100%;
+    height: 20%;
+	
+	color: blue;
+	padding: 10px 2px;
+        text-align: center;
+	background: -moz-linear-gradient(
+		top,
+		#42ff42 0%,
+		#146600);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#42ff42),
+		to(#146600));
+	-moz-border-radius: 0px 0px 10px 10px ;
+	-webkit-border-radius: 0px 0px 10px 10px ;
+	border-radius: 0px 0px 10px 10px ;
+	border: 1px solid #75eb46;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+/*	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);*/
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.4),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+
+#Header {
+   float: left;
+   height: 6.997608%;
+   clear: none;
+   width: 100%;
+   background-image:-webkit-linear-gradient(270deg,rgb(27,31,77) 0%,rgb(3,22,53) 100%);
+   background-position: 0% 0%;
+   background-repeat: repeat;
+   background-attachment: scroll;
+   background-size: auto;
+   margin-top: 0px;
+   margin-left: 0%;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   min-width: 0px;
+}
+
+#antwoorden {
+   float: left;
+   height: 34.998006%;
+   clear: both;
+   width: 100%;
+   padding-top: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   padding-left: 0px;
+   margin-top: 0px;
+   margin-left: 0px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   min-height: 0px;
+}
+
+#Terug {
+   float: left;
+   height: 100%;
+   margin-left: 0%;
+   margin-top: 0px;
+   clear: none;
+   width: 32.285593%;
+}
+
+#vraagtop {
+   float: left;
+   height: 100%;
+   margin-left: 0px;
+   margin-top: 0px;
+   clear: none;
+   width: 37.249453%;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   padding-top: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   padding-left: 0px;
+}
+
+#leveltop {
+   float: left;
+   height: 100%;
+   margin-left: 0%;
+   margin-top: 0px;
+   clear: none;
+   width: 30.460398%;
+}
+
+#homekop {
+   float: left;
+   width: auto;
+   max-width: none;
+   height: 89.975062%;
+   margin-left: auto;
+   margin-top: 0px;
+   clear: none;
+   color: rgb(0, 0, 0);
+   margin-right: auto;
+   margin-bottom: 0px;
+   padding-top: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   padding-left: 1em;
+}
+
+#vraagtop-text {
+   float: none;
+   font-size: 100%;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   font-weight: bold;
+   line-height: 1em;
+   word-wrap: break-word;
+   margin-left: auto;
+   margin-top: auto;
+   clear: none;
+   min-height: 0px;
+   display: block;
+   position: static;
+   top: 0px;
+   left: 0px;
+   min-width: 0px;
+   color: rgb(255, 255, 255);
+   margin-bottom: auto;
+   margin-right: auto;
+   padding-top: 1em;
+   padding-right: 1em;
+   padding-bottom: 1em;
+   padding-left: 1em;
+}
+
+#leveltop-text {
+   float: none;
+   font-size: 100%;
+   width: 100%;
+   height: 100%;
+   text-align: right;
+   font-weight: bold;
+   line-height: 1em;
+   word-wrap: break-word;
+   margin-left: auto;
+   margin-top: auto;
+   clear: none;
+   min-height: 0px;
+   color: rgb(255, 255, 255);
+   min-width: 0px;
+   padding-right: 1em;
+   padding-top: 1em;
+   padding-bottom: 1em;
+   padding-left: 1em;
+   margin-right: auto;
+   margin-bottom: auto;
+}
+
+#a {
+   float: left;
+   height: 32.996297%;
+   margin-left: 0px;
+   margin-top: 0px;
+   clear: none;
+   width: 100%;
+   background-image:-webkit-linear-gradient(270deg,rgb(27,31,77) 0%,rgb(3,22,53) 100%);
+   background-position: 0% 0%;
+   background-repeat: repeat;
+   background-attachment: scroll;
+   background-size: auto;
+   opacity: 1;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   border-top-color: rgb(71, 80, 136);
+   border-right-color: rgb(71, 80, 136);
+   border-bottom-color: rgb(71, 80, 136);
+   border-left-color: rgb(71, 80, 136);
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   padding-top: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   padding-left: 0px;
+}
+
+#a-text {
+   float: left;
+   font-size: 94%;
+   width: 100%;
+   height: 100%;
+   text-align: justify;
+   font-weight: 500;
+   line-height: 1em;
+   word-wrap: break-word;
+   margin-left: 0px;
+   margin-top: 0px;
+   clear: none;
+   min-height: 0px;
+   text-transform: none;
+   color: rgb(255, 255, 255);
+   min-width: 0px;
+   padding-left: 1%;
+   padding-right: 1%;
+   padding-top: 0.5%;
+   padding-bottom: 0.5%;
+   margin-right: 0px;
+   margin-bottom: 0px;
+}
+
+#b {
+   float: left;
+   height: 32.996297%;
+   margin-left: 0px;
+   margin-top: 0.015625px;
+   clear: both;
+   width: 100%;
+   opacity: 1;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   border-top-color: rgb(71, 80, 136);
+   border-right-color: rgb(71, 80, 136);
+   border-bottom-color: rgb(71, 80, 136);
+   border-left-color: rgb(71, 80, 136);
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   padding-top: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   padding-left: 0px;
+   background-image:-webkit-linear-gradient(270deg,rgb(39,20,101) 0%,rgb(3,23,49) 100%);
+   background-position: 0% 0%;
+   background-repeat: repeat;
+   background-attachment: scroll;
+   background-size: auto;
+}
+
+#b-text {
+   float: left;
+   font-size: 90%;
+   width: 100%;
+   height: 100%;
+   text-align: justify;
+   font-weight: 500;
+   line-height: 1em;
+   word-wrap: break-word;
+   margin-left: 0px;
+   margin-top: 0px;
+   clear: none;
+   min-height: 0px;
+   text-transform: none;
+   color: rgb(255, 255, 255);
+   min-width: 0px;
+   padding-left: 1%;
+   padding-right: 1%;
+   padding-top: 0.5%;
+   padding-bottom: 0.5%;
+   margin-right: 0px;
+   margin-bottom: 0px;
+}
+
+#c {
+   float: left;
+   height: 33%;
+   margin-left: 0px;
+   margin-top: 0.015625px;
+   clear: both;
+   width: 100%;
+   opacity: 1;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   border-top-color: rgb(71, 80, 136);
+   border-right-color: rgb(71, 80, 136);
+   border-bottom-color: rgb(71, 80, 136);
+   border-left-color: rgb(71, 80, 136);
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   padding-top: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   padding-left: 0px;
+   background-image:-webkit-linear-gradient(270deg,rgb(39,20,101) 0%,rgb(3,23,49) 100%);
+   background-position: 0% 0%;
+   background-repeat: repeat;
+   background-attachment: scroll;
+   background-size: auto;
+}
+
+#c-text {
+   float: left;
+   font-size: 90%;
+   width: 100%;
+   height: 100%;
+   text-align: justify;
+   font-weight: 500;
+   line-height: 1em;
+   word-wrap: break-word;
+   margin-left: 0px;
+   margin-top: -0.328125px;
+   clear: none;
+   min-height: 0px;
+   text-transform: none;
+   color: rgb(255, 255, 255);
+   min-width: 0px;
+   padding-left: 1%;
+   padding-right: 1%;
+   padding-top: 0.5%;
+   padding-bottom: 0.5%;
+   margin-right: 0px;
+   margin-bottom: 0px;
+}
+
+#vraag {
+   float: left;
+   height: 14.498604%;
+   margin-left: 0px;
+   margin-top: 0px;
+   clear: both;
+   width: 100%;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   padding-top: 4px;
+}
+
+#vraag-text {
+   float: left;
+   font-size: 94%;
+   width: 100%;
+   height: 100%;
+   text-align: justify;
+   font-weight: 500;
+   line-height: 1em;
+   word-wrap: break-word;
+   margin-left: 0px;
+   margin-top: 0px;
+   clear: none;
+   min-height: 0px;
+   text-transform: none;
+   padding-top: 0.5%;
+   padding-right: 0.5%;
+   padding-bottom: 0.5%;
+   padding-left: 0.5%;
+   color: rgb(255, 255, 255);
+   margin-bottom: 0px;
+   border-top-width: 0px;
+   border-top-color: rgb(46, 69, 196);
+   border-right-color: rgb(46, 69, 196);
+   border-bottom-color: rgb(46, 69, 196);
+   border-left-color: rgb(46, 69, 196);
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   min-width: 0px;
+   margin-right: 0px;
+}
+.fout{
+    -moz-box-shadow: 0px 0px 26px #fc0303;
+    -webkit-box-shadow: 0px 0px 26px #fc0303;
+    box-shadow: 0px 0px 26px #fc0303;
+}
+.correct{
+    -moz-box-shadow: 0px 0px 26px #03fc03;
+    -webkit-box-shadow: 0px 0px 26px #03fc03;
+    box-shadow: 0px 0px 26px #03fc03;
+}
+#progress {
+   float: left;
+   height: 2%;
+   margin-left: 0px;
+   margin-top: 0px;
+   clear: none;
+   width: 100%;
+/*   background-color: rgb(61, 192, 30);*/
+
+   margin-right: 0px;
+   margin-bottom: 0px;
+   display: block;
+}
+
+#screen {
+   float: left;
+   height: 100%;
+   clear: none;
+   width: 100%;
+   display: block;
+   position: fixed;
+   min-height: 0px;
+   min-width: 0px;
+}
+
+body {
+/*   font-size: 18px;*/
+font-size: 90%;
+   line-height: 26px;
+}
+
+
+#Foto-div {
+   float: left;
+   height: 44%;
+   margin-left: 0px;
+   margin-top: 0px;
+   clear: both;
+   width: 100%;
+   margin-right: 0px;
+   margin-bottom: 0px;
+}
+#fotoAnt {
+   float: none;
+   width: auto;
+   height: 44%;
+   clear: none;
+   color: rgb(0, 0, 0);
+   min-width: 0px;
+   min-height: 0px;
+   border-top-color: rgb(33, 49, 139);
+   border-right-color: rgb(33, 49, 139);
+   border-bottom-color: rgb(33, 49, 139);
+   border-left-color: rgb(33, 49, 139);
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+   border-left-width: 0px;
+   border-top-style: inset;
+   border-right-style: inset;
+   border-bottom-style: inset;
+   border-left-style: inset;
+   margin-top: 0px;
+   margin-right: auto;
+   margin-left: auto;
+   margin-bottom: 0px;
+}
+#foto {
+   float: none;
+   width: auto;
+   height: 100%;
+   clear: none;
+   color: rgb(0, 0, 0);
+   min-width: 0px;
+   min-height: 0px;
+   border-top-color: rgb(33, 49, 139);
+   border-right-color: rgb(33, 49, 139);
+   border-bottom-color: rgb(33, 49, 139);
+   border-left-color: rgb(33, 49, 139);
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+   border-left-width: 0px;
+   border-top-style: inset;
+   border-right-style: inset;
+   border-bottom-style: inset;
+   border-left-style: inset;
+   margin-top: 0px;
+   margin-right: auto;
+   margin-left: auto;
+   margin-bottom: 0px;
+}
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <!-- This code is only meant for previewing your Reflow design. -->
+    <head>
+        <title>Eye-Fiets-Home</title>
+        <link rel="stylesheet" href="boilerplate.css" />
+        <link rel="stylesheet" href="vragen.css" />
+        <link rel="stylesheet" href="home.css" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+
+        <script type="text/javascript" src="iscroll.js"></script> 
+        <script type="text/javascript" src="jquery.min.js"></script> 
+        <script type="text/javascript" src="fietsappscript.js"></script>
+        <script type="text/javascript">
+
+
+            var myScroll;
+            function loaded() {
+                myScroll = new iScroll('wrapper');
+            }
+
+            document.addEventListener('touchmove', function(e) {
+                e.preventDefault();
+            }, false);
+
+            document.addEventListener('DOMContentLoaded', function() {
+                setTimeout(loaded, 200);
+            }, false);
+
+
+        </script>
+
+    </head>
+    <body>
+
+        <div id="primaryContainer" class="primaryContainer clearfix">
+            <div id='screen' class='clearfix'>
+                <div id='Header' class='clearfix'>
+                    <div id='Terug' class='clearfix'>
+                        <img id='homekop' src='img/terug 1.png' class='image' />
+                    </div>
+                    <div id='vraagtop' class='clearfix'>
+                        <p id='vraagtop-text'>
+                            Home
+                        </p>
+                    </div>
+                    <div id='leveltop' class='clearfix'>
+                        <p id='leveltop-text'>
+
+                        </p>
+                    </div>
+                </div>
+                <div id='wrapper' class='clearfix'>
+                    <div id='scroller' class='clearfix'>
+                        <div id='box1' class='clearfix , boxlock  '>
+                            <span>Niviau 1</span>
+                        </div>
+                        <div id='box2' class='clearfix , boxlock '>
+                            <span>Niviau 2</span>
+                        </div>
+                        <div id='box3' class='clearfix , boxlock '>
+                            <span>Niviau 3</span>
+                        </div>
+                        <div id='box4' class='clearfix , boxlock '>
+                            <span>Niviau 4</span>
+                        </div>
+                        <div id='box5' class='clearfix , boxlock '>
+                            <span>Niviau 5</span>
+                        </div>
+                        <div id='box6' class='clearfix , boxlock '>
+                            <span>Niviau 6</span>
+                        </div>
+                        <div id='box7' class='clearfix , boxlock '>
+                            <span>Niviau 7</span>
+                        </div>
+                        <div id='box8' class='clearfix , boxlock '>
+                            <span>Niviau 8</span>
+                        </div>
+                        <div id='box9' class='clearfix , boxlock '>
+                            <span>Niviau 9</span>
+                        </div>
+                        <div id='box10' class='clearfix , boxlock '>
+                            <span>Niviau 10</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>

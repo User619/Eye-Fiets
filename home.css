@@ -1,0 +1,243 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-image:-webkit-linear-gradient(270deg,rgb(29,29,29) 4%,black 100%);
+    background-attachment: scroll;
+    background-size: auto;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+
+#Header {
+    float: left;
+    height: 6.992624%;
+    clear: none;
+    width: 100%;
+    background-image:-webkit-linear-gradient(270deg,rgb(27,31,77) 0%,rgb(3,22,53) 100%);
+    background-attachment: scroll;
+    background-size: auto;
+    margin: 0px 0px 0px 0%;
+    min-width: 0px;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+
+#Terug {
+    float: left;
+    height: 100%;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 32.285593%;
+}
+
+#vraagtop {
+    float: left;
+    height: 100%;
+    margin: 0px;
+    clear: none;
+    width: 37.249453%;
+    padding: 0px;
+}
+
+#leveltop {
+    float: left;
+    height: 100%;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 30.460398%;
+}
+
+#homekop {
+    float: left;
+    width: auto;
+    max-width: none;
+    height: 89.975062%;
+    margin: 0px auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    padding: 0px 0px 0px 1em;
+}
+
+#vraagtop-text {
+    float: none;
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1em;
+    word-wrap: break-word;
+    margin: auto;
+    clear: none;
+    min-height: 0px;
+    display: block;
+    position: static;
+    top: 0px;
+    left: 0px;
+    min-width: 0px;
+    color: rgb(255, 255, 255);
+    padding: 1em;
+}
+
+#leveltop-text {
+    float: none;
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    font-weight: bold;
+    line-height: 1em;
+    word-wrap: break-word;
+    margin: auto;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    min-width: 0px;
+    padding: 1em;
+}
+
+#scroller, #scroller2 {
+
+
+
+    width:100%;
+    padding-bottom:10%;
+}
+
+#screen, #screen2{
+    float: left;
+    height: 100%;
+    clear: none;
+    width: 100%;
+    display: block;
+    position: fixed;
+    min-height: 0px;
+    min-width: 0px;
+
+
+}
+
+body {
+    line-height: 18px;
+    font-size: 90%;
+    color: rgb(0, 0, 0);
+}
+
+
+.boxlock{
+    float: left;
+    height: 139px;
+    margin: 10px;
+    clear: none;
+    width: 139px;
+    overflow: visible;
+    min-height: 0px;
+    min-width: 0px;
+    max-width: none;
+    max-height: none;
+    background-color: rgb(206, 122, 122);
+    background-image: url('img/lock.png');
+    line-height: 150px;
+    text-align: center;
+    font-weight:bold;
+    color: white;
+    background-size: auto 100%  ; 
+    background-repeat:no-repeat;  
+    background-position:center; 
+
+
+    -moz-border-radius-topleft: 17px;
+    -moz-border-radius-topright:17px;
+    -moz-border-radius-bottomleft:17px;
+    -moz-border-radius-bottomright:17px;
+    -webkit-border-top-left-radius:17px;
+    -webkit-border-top-right-radius:17px;
+    -webkit-border-bottom-left-radius:17px;
+    -webkit-border-bottom-right-radius:17px;
+    border-top-left-radius:17px;
+    border-top-right-radius:17px;
+    border-bottom-left-radius:17px;
+    border-bottom-right-radius:17px;
+
+
+    -moz-box-shadow: 0px 1px 14px #000000;
+    -webkit-box-shadow: 0px 1px 14px #000000;
+    box-shadow: 0px 1px 14px #000000;
+
+
+
+
+
+}
+.boxunlock{
+    float: left;
+    height: 139px;
+    margin: 10px;
+    clear: none;
+    width: 139px;
+    overflow: visible;
+    min-height: 0px;
+    min-width: 0px;
+    max-width: none;
+    max-height: none;
+    background-color: rgb(206, 122, 122);  
+    background-size:  139px; 
+    background-image: url('img/unlock.png');
+    line-height: 150px;
+    text-align: center;
+    font-weight:bold;
+    color: white;
+    background-size: auto 100%  ; 
+    background-repeat:no-repeat;  
+    background-position:center; 
+    -moz-border-radius-topleft: 17px;
+    -moz-border-radius-topright:17px;
+    -moz-border-radius-bottomleft:17px;
+    -moz-border-radius-bottomright:17px;
+    -webkit-border-top-left-radius:17px;
+    -webkit-border-top-right-radius:17px;
+    -webkit-border-bottom-left-radius:17px;
+    -webkit-border-bottom-right-radius:17px;
+    border-top-left-radius:17px;
+    border-top-right-radius:17px;
+    border-bottom-left-radius:17px;
+    border-bottom-right-radius:17px;
+
+
+    -moz-box-shadow: 0px 1px 14px #000000;
+    -webkit-box-shadow: 0px 1px 14px #000000;
+    box-shadow: 0px 1px 14px #000000;
+
+
+}
+.boxlock > span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;      
+}
+
+
+#wrapper, #wrapper2 {
+    float: left;
+    height: 100%;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: both;
+    width: 100%;
+    min-width: 0px;
+    min-height: 0px;
+
+
+    position:absolute; 
+    top:7%; bottom:48px; left:0;
+    width:100%;
+    background:#aaa;
+    overflow:auto;
+}
+
