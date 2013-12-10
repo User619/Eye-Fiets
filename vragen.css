@@ -55,10 +55,10 @@ padding: 20px;*/
     width: 100%;
     height: 100%;
  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
-filter: alpha(opacity=90);
--moz-opacity: 0.9;
--khtml-opacity: 0.9;
-opacity: 0.9;
+filter: alpha(opacity=95);
+-moz-opacity: 0.95;
+-khtml-opacity: 0.95;
+opacity: 0.95;
 /*border: 1px #888888 solid;*/
 
 background-color: #d7d1d1;
