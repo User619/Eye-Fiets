@@ -87,7 +87,7 @@ $(document).ready(function() {
     for (var lvl = 1; lvl < niveau; lvl++) {
         $("#box" + lvl).removeClass("boxlock");
         $("#box" + lvl).addClass("boxunlock");
-        $("#box" + lvl).css("background-image", "url('img/" + lvl + "/" + lvl + ".jpg')");
+        $("#box" + lvl).css("background-image", "url('img/" + lvl + "" + lvl + ".jpg')");
     }
     $("#box" + niveau).css("background-color", "green");
     $("#Terug").click(function() {
@@ -167,7 +167,7 @@ $(document).ready(function() {
     $("#a-text").html(vragenLijst["Tabel1"][vragenArray[huidigeVraag]].a);
     $("#b-text").html(vragenLijst["Tabel1"][vragenArray[huidigeVraag]].b);
     $("#c-text").html(vragenLijst["Tabel1"][vragenArray[huidigeVraag]].c);
-    $("#foto").attr("src", "img/" + selectedNiveau + "/" + vragenLijst['Tabel1'][vragenArray[huidigeVraag]].photonr + ".jpg");
+    $("#foto").attr("src", "img/" + selectedNiveau + "" + vragenLijst['Tabel1'][vragenArray[huidigeVraag]].photonr + ".jpg");
 
     var antwoorden = [];
     var huidigeAntwoord = '';
@@ -272,7 +272,7 @@ $(document).ready(function() {
             $("#b-text").html(vragenLijst["Tabel1"][vragenArray[huidigeVraag]].b);
             $("#c-text").html(vragenLijst["Tabel1"][vragenArray[huidigeVraag]].c);
             $("#vraagtop-text").html("Vraag " + (huidigeVraag + 1) + " / 5");
-            $("#foto").attr("src", "img/" + selectedNiveau + "/" + vragenLijst['Tabel1'][vragenArray[huidigeVraag]].photonr + ".jpg");
+            $("#foto").attr("src", "img/" + selectedNiveau + "" + vragenLijst['Tabel1'][vragenArray[huidigeVraag]].photonr + ".jpg");
         }
         if (huidigeVraag > 4) {
 
@@ -298,7 +298,7 @@ $(document).ready(function() {
                         vragenLijst["Tabel1"][vragenArray[antwoord]].correct
                         !== antwoorden[antwoord].antwoord) {
                     antwordedDiv += "<div id='vraag" + vragenTeller + "' class='clearfix , boxlock  ' \n\
-                                   style='background-image: url(\"img/" + selectedNiveau + "/" + vragenLijst["Tabel1"][vragenArray[antwoord]].photonr + ".jpg\");\n\
+                                   style='background-image: url(\"img/" + selectedNiveau + "" + vragenLijst["Tabel1"][vragenArray[antwoord]].photonr + ".jpg\");\n\
                                    background-size: auto 100%  ;\n\
                                    background-repeat:no-repeat;\n\
                                    background-position:center; \n\
@@ -321,7 +321,7 @@ $(document).ready(function() {
                     });
                 } else {
                     antwordedDiv += "<div id='vraag" + vragenTeller + "' class='clearfix , boxlock  ' \n\
-                                   style='background-image: url(\"img/" + selectedNiveau + "/" + vragenLijst["Tabel1"][vragenArray[antwoord]].photonr + ".jpg\");\n\
+                                   style='background-image: url(\"img/" + selectedNiveau + "" + vragenLijst["Tabel1"][vragenArray[antwoord]].photonr + ".jpg\");\n\
                                    background-size: auto 100%  ;\n\
                                    background-repeat:no-repeat;\n\
                                    background-position:center; \n\
@@ -383,7 +383,7 @@ $(document).ready(function() {
                             <h3>Vraag " + (i + 1) + "<br/>\n\
                             <div id='Foto-div' class='clearfix'> \n\
                             <img id='fotoAnt' class='image' src='img/" +
-                        selectedNiveau + "/" + vragenLijst["Tabel1"][antwoorden[i].vraagid - 1].photonr +
+                        selectedNiveau + "" + vragenLijst["Tabel1"][antwoorden[i].vraagid - 1].photonr +
                         ".jpg'></img></div><br/></h3>\n\
                              <div id='accordion'class='accordion vertical'>\n\
                             <section id='vertabout'>\n\
