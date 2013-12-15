@@ -266,7 +266,7 @@ $(document).ready(function() {
         if (huidigeVraag > 4) {
 
             clearInterval(timer);
-            alert(JSON.stringify(antwoorden));
+//            alert(JSON.stringify(antwoorden));
             localStorage.setItem('antwoorden', JSON.stringify(antwoorden));
             $("#errorContainer").remove();
             $("#Foto-div").remove();
@@ -332,7 +332,7 @@ $(document).ready(function() {
                     correctAntwordenTeller++;
                 }
                 vragenTeller++;
-                alert(parseInt(niveau) + '=========' + selectedNiveau);
+//                alert(parseInt(niveau) + '=========' + selectedNiveau);
 
                 if (correctAntwordenTeller > 3 && (parseInt(niveau) == selectedNiveau))
                 {
