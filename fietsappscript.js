@@ -168,7 +168,7 @@ $(document).ready(function() {
         if (vragenLijst["Tabel1"][vragenArray[huidigeVraag]].correct !== huidigeAntwoord) {
             $("#errorContainer").remove();
             $("body").append('<div id="errorContainer"><div id="error" class="clearfix"></div><div id="css3button">OK</div></div>');
-            $("#error").html(vragenLijst["Tabel1"][vragenArray[huidigeVraag]].uitleg);
+           $("#error").html("<h2>"+vragenLijst["Tabel1"][vragenArray[huidigeVraag]].uitleg+"</h2>");
             $("#css3button").click(function() {
                 $("#errorContainer").remove();
                 var VEA = {vraagid: vragenLijst["Tabel1"][vragenArray[huidigeVraag]].Id, antwoord: huidigeAntwoord};
@@ -192,7 +192,7 @@ $(document).ready(function() {
         if (vragenLijst["Tabel1"][vragenArray[huidigeVraag]].correct !== huidigeAntwoord) {
             $("#errorContainer").remove();
             $("body").append('<div id="errorContainer"><div id="error" class="clearfix"></div><div id="css3button">OK</div></div>');
-            $("#error").html(vragenLijst["Tabel1"][vragenArray[huidigeVraag]].uitleg);
+          $("#error").html("<h2>"+vragenLijst["Tabel1"][vragenArray[huidigeVraag]].uitleg+"</h2>");
             $("#css3button").click(function() {
                 $("#errorContainer").remove();
                 var VEA = {vraagid: vragenLijst["Tabel1"][vragenArray[huidigeVraag]].Id, antwoord: huidigeAntwoord};
@@ -216,7 +216,7 @@ $(document).ready(function() {
         if (vragenLijst["Tabel1"][vragenArray[huidigeVraag]].correct !== huidigeAntwoord) {
             $("#errorContainer").remove();
             $("body").append('<div id="errorContainer"><div id="error" class="clearfix"></div><div id="css3button">OK</div></div>');
-            $("#error").html(vragenLijst["Tabel1"][vragenArray[huidigeVraag]].uitleg);
+            $("#error").html("<h2>"+vragenLijst["Tabel1"][vragenArray[huidigeVraag]].uitleg+"</h2>");
             $("#css3button").click(function() {
                 $("#errorContainer").remove();
                 var VEA = {vraagid: vragenLijst["Tabel1"][vragenArray[huidigeVraag]].Id, antwoord: huidigeAntwoord};
